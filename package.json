@@ -19,7 +19,7 @@
     "story:build": "histoire build",
     "story:preview": "histoire preview",
     "sync:i18n": "bin/sync_i18n_file_change",
-    "build": "npm run build"
+    "build": "node --max-old-space-size=4096 ./node_modules/.bin/vite build"
   },
   "size-limit": [
     {
